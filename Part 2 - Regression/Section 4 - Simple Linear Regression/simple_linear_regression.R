@@ -16,6 +16,7 @@ test_set = subset(dataset, split == FALSE)
 # test_set = scale(test_set)
 
 # Fitting Simple Linear Regression to the Training set
+# simple linear regression formula
 regressor = lm(formula = Salary ~ YearsExperience,
                data = training_set)
 
@@ -32,8 +33,9 @@ ggplot() +
   ggtitle('Salary vs Experience (Training set)') +
   xlab('Years of experience') +
   ylab('Salary')
+png('Salary_Experience_Train_Graph_R.png')
 
-# Visualising the Test set results
+# Visualising the Test set results (new observations)
 library(ggplot2)
 ggplot() +
   geom_point(aes(x = test_set$YearsExperience, y = test_set$Salary),
@@ -43,3 +45,4 @@ ggplot() +
   ggtitle('Salary vs Experience (Test set)') +
   xlab('Years of experience') +
   ylab('Salary')
+ggsave('Salary_Experience_Test_Graph_R.png')
