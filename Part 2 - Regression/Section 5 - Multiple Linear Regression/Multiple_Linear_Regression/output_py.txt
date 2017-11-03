@@ -1,0 +1,122 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                       nan
+Date:                Thu, 02 Nov 2017   Prob (F-statistic):                nan
+Time:                        23:28:34   Log-Likelihood:                -600.65
+No. Observations:                  50   AIC:                             1203.
+Df Residuals:                      49   BIC:                             1205.
+Df Model:                           0                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1.867e+04    950.026     19.651      0.000    1.68e+04    2.06e+04
+x1          1.867e+04    950.026     19.651      0.000    1.68e+04    2.06e+04
+x2          1.867e+04    950.026     19.651      0.000    1.68e+04    2.06e+04
+x3          1.867e+04    950.026     19.651      0.000    1.68e+04    2.06e+04
+x4          1.867e+04    950.026     19.651      0.000    1.68e+04    2.06e+04
+x5          1.867e+04    950.026     19.651      0.000    1.68e+04    2.06e+04
+==============================================================================
+Omnibus:                        0.018   Durbin-Watson:                   0.020
+Prob(Omnibus):                  0.991   Jarque-Bera (JB):                0.068
+Skew:                           0.023   Prob(JB):                        0.966
+Kurtosis:                       2.825   Cond. No.                     1.97e+80
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 7.74e-159. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                       nan
+Date:                Thu, 02 Nov 2017   Prob (F-statistic):                nan
+Time:                        23:28:34   Log-Likelihood:                -600.65
+No. Observations:                  50   AIC:                             1203.
+Df Residuals:                      49   BIC:                             1205.
+Df Model:                           0                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        2.24e+04   1140.031     19.651      0.000    2.01e+04    2.47e+04
+x1           2.24e+04   1140.031     19.651      0.000    2.01e+04    2.47e+04
+x2           2.24e+04   1140.031     19.651      0.000    2.01e+04    2.47e+04
+x3           2.24e+04   1140.031     19.651      0.000    2.01e+04    2.47e+04
+x4           2.24e+04   1140.031     19.651      0.000    2.01e+04    2.47e+04
+==============================================================================
+Omnibus:                        0.018   Durbin-Watson:                   0.020
+Prob(Omnibus):                  0.991   Jarque-Bera (JB):                0.068
+Skew:                           0.023   Prob(JB):                        0.966
+Kurtosis:                       2.825   Cond. No.                     1.61e+64
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 9.66e-127. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                       inf
+Date:                Thu, 02 Nov 2017   Prob (F-statistic):                nan
+Time:                        23:28:34   Log-Likelihood:                -600.65
+No. Observations:                  50   AIC:                             1203.
+Df Residuals:                      49   BIC:                             1205.
+Df Model:                           0                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         2.8e+04   1425.039     19.651      0.000    2.51e+04    3.09e+04
+x1            2.8e+04   1425.039     19.651      0.000    2.51e+04    3.09e+04
+x2            2.8e+04   1425.039     19.651      0.000    2.51e+04    3.09e+04
+x3            2.8e+04   1425.039     19.651      0.000    2.51e+04    3.09e+04
+==============================================================================
+Omnibus:                        0.018   Durbin-Watson:                   0.020
+Prob(Omnibus):                  0.991   Jarque-Bera (JB):                0.068
+Skew:                           0.023   Prob(JB):                        0.966
+Kurtosis:                       2.825   Cond. No.                     1.47e+48
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 9.2e-95. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                       nan
+Date:                Thu, 02 Nov 2017   Prob (F-statistic):                nan
+Time:                        23:28:34   Log-Likelihood:                -600.65
+No. Observations:                  50   AIC:                             1203.
+Df Residuals:                      49   BIC:                             1205.
+Df Model:                           0                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3.734e+04   1900.052     19.651      0.000    3.35e+04    4.12e+04
+x1          3.734e+04   1900.052     19.651      0.000    3.35e+04    4.12e+04
+x2          3.734e+04   1900.052     19.651      0.000    3.35e+04    4.12e+04
+==============================================================================
+Omnibus:                        0.018   Durbin-Watson:                   0.020
+Prob(Omnibus):                  0.991   Jarque-Bera (JB):                0.068
+Skew:                           0.023   Prob(JB):                        0.966
+Kurtosis:                       2.825   Cond. No.                     4.06e+32
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 9.12e-64. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+
