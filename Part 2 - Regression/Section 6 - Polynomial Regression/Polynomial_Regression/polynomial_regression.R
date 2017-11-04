@@ -33,26 +33,26 @@ poly_reg = lm(formula = Salary ~ .,
 library(ggplot2)
 ggplot() +
   geom_point(aes(x = dataset$Level, y = dataset$Salary),
-             color = 'red') +
+             colour = 'red') +
   geom_line(aes(x = dataset$Level, y = predict(lin_reg, newdata = dataset)),
-            color = 'blue') +
+            colour = 'blue') +
   ggtitle('Truth or Bluff (Linear Regression)') +
   xlab('Level') +
   ylab('Salary')
-png('Linear_R.png')
+ggsave('Linear_R.png')
 
 # Visualising the Polynomial Regression results
 # install.packages('ggplot2')
 library(ggplot2)
 ggplot() +
   geom_point(aes(x = dataset$Level, y = dataset$Salary),
-             color = 'red') +
+             colour = 'red') +
   geom_line(aes(x = dataset$Level, y = predict(poly_reg, newdata = dataset)),
-            color = 'blue') +
+            colour = 'blue') +
   ggtitle('Truth or Bluff (Polynomial Regression)') +
   xlab('Level') +
   ylab('Salary')
-png('Polynomial_R.png')
+ggsave('Polynomial_R.png')
 
 # Predicting a new result with Linear Regression
 y_pred = predict(lin_reg, data.frame(Level = 6.5))
@@ -69,7 +69,7 @@ library(ggplot2)
 x_grid = seq(min(dataset$Level), max(dataset$Level), 0.1)
 ggplot() +
   geom_point(aes(x = dataset$Level, y = dataset$Salary),
-             color = 'red') +
+             colour = 'red') +
   geom_line(aes(x = x_grid, y = predict(poly_reg,
                                         newdata = data.frame(Level = x_grid,
                                                              Level2 = x_grid^2,
@@ -79,4 +79,4 @@ ggplot() +
   ggtitle('Truth or Bluff (Polynomial Regression)') +
   xlab('Level') +
   ylab('Salary')
-png('Polynomial_R_smooth.png')
+ggsave('Polynomial_R_smooth.png')
