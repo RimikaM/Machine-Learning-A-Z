@@ -38,6 +38,7 @@ ggplot() +
   ggtitle('Truth or Bluff (SVR)') +
   xlab('Level') +
   ylab('Salary')
+ggsave('Results_SVR_R.png')
 
 # Visualising the SVR results (for higher resolution and smoother curve)
 # install.packages('ggplot2')
@@ -51,3 +52,4 @@ ggplot() +
   ggtitle('Truth or Bluff (SVR)') +
   xlab('Level') +
   ylab('Salary')
+ggsave('SVR_Smooth.png')
