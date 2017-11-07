@@ -38,6 +38,7 @@ ggplot() +
   ggtitle('Truth or Bluff (Decision Tree Regression)') +
   xlab('Level') +
   ylab('Salary')
+ggsave('Decision_Tree_R.png')
 
 # Plotting the tree
 plot(regressor)
