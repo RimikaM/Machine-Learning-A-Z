@@ -17,7 +17,7 @@ dataset = dataset[2:3]
 # test_set = scale(test_set)
 
 # Fitting Random Forest Regression to the dataset
-# install.packages('randomForest')
+#install.packages('randomForest')
 library(randomForest)
 set.seed(1234)
 regressor = randomForest(x = dataset[-2],
@@ -25,6 +25,7 @@ regressor = randomForest(x = dataset[-2],
                          ntree = 500)
 
 # Predicting a new result with Random Forest Regression
+# predicted ~160K, which is accurate
 y_pred = predict(regressor, data.frame(Level = 6.5))
 
 # Visualising the Random Forest Regression results (higher resolution)
@@ -39,3 +40,4 @@ ggplot() +
   ggtitle('Truth or Bluff (Random Forest Regression)') +
   xlab('Level') +
   ylab('Salary')
+ggsave('Random_Forest_R.png')
